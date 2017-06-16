@@ -9,5 +9,12 @@
         })
     }
 
+    macroBitApiService.getPoloniexChartData = function () {
+        return $http({
+            url: "/api/Poloniex/GetChartData/",
+            method: "GET",
+        })
+    }
+
     return macroBitApiService;
 });

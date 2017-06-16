@@ -1,4 +1,4 @@
-﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+﻿@*@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet*@
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,14 +10,18 @@
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
         <link rel="styleSheet" href="~/lib/angular-ui-grid/ui-grid.min.css" />
+        <link rel="styleSheet" href="~/lib/highcharts-ng/dist/highcharts-ng.css" />
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.4/ui-grid.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highcharts-ng/1.1.0/highcharts-ng.css" asp-append-version="true" />
+        
     </environment>
-    @Html.Raw(JavaScriptSnippet.FullScript)
+    @*@Html.Raw(JavaScriptSnippet.FullScript)*@
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -59,11 +63,13 @@
         <script src="~/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
         <script src="~/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
-        @*ui-grid Option1*@
+        @*grid*@
         <script src="~/lib/angular-ui-grid/ui-grid.min.js"></script>
-
-
         <script src="~/lib/ag-grid/dist/ag-grid.min.js"></script>
+
+        @*Highchart*@
+        <script src="~/lib/highcharts/highcharts.js"></script>
+        <script src="~/lib/highcharts-ng/dist/highcharts-ng.min.js"></script>
 
 
     </environment>
@@ -81,6 +87,24 @@
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.4/ui-grid.min.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/10.1.0/ag-grid.min.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/highcharts.js" asp-append-version="true"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts-ng/1.1.0/highcharts-ng.min.js" asp-append-version="true"></script>
+        
+        
+
+        
+
+        
+
+        
+        
+        
+       
     </environment>
 
     @RenderSection("Scripts", required: false)

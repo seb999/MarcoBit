@@ -14,6 +14,7 @@ namespace MarcoBit.Controllers.API
     [Route("api/[controller]")]
     public class PoloniexController : Controller
     {
+
         // GET: api/values
         [HttpGet]
         public string Get()
@@ -22,6 +23,40 @@ namespace MarcoBit.Controllers.API
             {
                 client.BaseAddress = new Uri("https://poloniex.com/public?command=returnTicker");
                 //client.BaseAddress = new Uri("https://poloniex.com/public?command=returnTradeHistory&currencyPair=BTC_NXT&start=1410158341&end=1410499372");
+
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                var response = client.GetAsync("").Result;
+                if (response.IsSuccessStatusCode)
+                {
+
+                    //var definition = new { BTC_BNC = "",  };
+
+                    //var aaa = JsonConvert.DeserializeAnonymousType(response.Content.ReadAsStringAsync().Result, definition);
+                    //var eee = JsonConvert.DeserializeObject(response.Content.ReadAsStringAsync().Result);
+                    //var ttt = JsonConvert.DeserializeObject<toto>(response.Content.ReadAsStringAsync().Result);
+
+                 
+                    //var ddd = JsonConvert.DeserializeObject(ttt);
+
+
+
+                    return response.Content.ReadAsStringAsync().Result;
+                }
+            }
+
+
+
+            return "";
+        }
+
+        [HttpGet]
+        [Route("GetChartData")]
+        public string GetChartData()
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://poloniex.com/public?command=returnChartData&currencyPair=BTC_XMR&start=1405699200&end=9999999999&period=14400");
 
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -37,31 +72,8 @@ namespace MarcoBit.Controllers.API
             return "";
         }
 
+        
 
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+       
     }
 }
