@@ -9,14 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\App\app.js" />
-    <Content Include="wwwroot\App\JavaScript.js" />
-    <Content Include="wwwroot\App\macroBitApiService.js" />
-    <Content Include="wwwroot\App\ViewModel\Home\homeIndexViewModel.js" />
-    <Content Include="wwwroot\images\bitcoin.png" />
-    <Content Include="wwwroot\images\eth.png" />
-    <Content Include="wwwroot\images\Monero.png" />
-    <Content Include="wwwroot\images\usdt.png" />
+    <None Update="wwwroot\**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />

@@ -1,18 +1,27 @@
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.deps.json
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.runtimeconfig.json
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.runtimeconfig.dev.json
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.dll
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.pdb
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.csprojResolveAssemblyReference.cache
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.AssemblyInfo.cs
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.dll
-c:\users\sdubos\documents\visual studio 2017\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.pdb
-d:\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.deps.json
-d:\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.runtimeconfig.json
-d:\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.runtimeconfig.dev.json
-d:\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.dll
-d:\Projects\MarcoBit\MarcoBit\bin\Debug\netcoreapp1.1\MarcoBit.pdb
-d:\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.csprojResolveAssemblyReference.cache
-d:\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.AssemblyInfo.cs
-d:\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.dll
-d:\Projects\MarcoBit\MarcoBit\obj\Debug\netcoreapp1.1\MarcoBit.pdb
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.deps.json
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.runtimeconfig.json
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.runtimeconfig.dev.json
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.dll
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.pdb
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.csprojResolveAssemblyReference.cache
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.AssemblyInfo.cs
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.dll
+c:/users/sdubos/documents/visual studio 2017/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.pdb
+d:/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.deps.json
+d:/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.runtimeconfig.json
+d:/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.runtimeconfig.dev.json
+d:/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.dll
+d:/Projects/MarcoBit/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.pdb
+d:/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.csprojResolveAssemblyReference.cache
+d:/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.AssemblyInfo.cs
+d:/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.dll
+d:/Projects/MarcoBit/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.pdb
+/Users/sebastien/Dotnet/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.deps.json
+/Users/sebastien/Dotnet/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.runtimeconfig.json
+/Users/sebastien/Dotnet/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.runtimeconfig.dev.json
+/Users/sebastien/Dotnet/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.csprojResolveAssemblyReference.cache
+/Users/sebastien/Dotnet/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.AssemblyInfo.cs
+/Users/sebastien/Dotnet/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.dll
+/Users/sebastien/Dotnet/MarcoBit/obj/Debug/netcoreapp1.1/MarcoBit.pdb
+/Users/sebastien/Dotnet/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.dll
+/Users/sebastien/Dotnet/MarcoBit/bin/Debug/netcoreapp1.1/MarcoBit.pdb
