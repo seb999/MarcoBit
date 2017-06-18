@@ -92,10 +92,10 @@
         var imageElement = document.createElement("img");
 
         // visually indicate if this months value is higher or lower than last months value
-        if (params.value.substring(0, 3) === 'BTC') { imageElement.src = "/images/bitcoin.png" };
-        if (params.value.substring(0, 3) === 'XMR') { imageElement.src = "/images/monero.png" };
-        if (params.value.substring(0, 3) === 'ETH') { imageElement.src = "/images/eth.png" };
-        if (params.value.substring(0, 3) === 'USD') { imageElement.src = "/images/usdt.png" };
+        if (params.value.substring(0, 3) === 'BTC') { imageElement.src = "images/bitcoin.png" };
+        if (params.value.substring(0, 3) === 'XMR') { imageElement.src = "images/monero.png" };
+        if (params.value.substring(0, 3) === 'ETH') { imageElement.src = "images/eth.png" };
+        if (params.value.substring(0, 3) === 'USD') { imageElement.src = "images/usdt.png" };
 
         element.appendChild(imageElement);
         element.appendChild(document.createTextNode(params.value));
@@ -103,10 +103,10 @@
     }
 
     $scope.getTemplateUI = function (value) {
-        if (value.substring(0, 3) === 'BTC') { return "/images/bitcoin.png" };
-        if (value.substring(0, 3) === 'XMR') { return "/images/monero.png" };
-        if (value.substring(0, 3) === 'ETH') { return "/images/eth.png" };
-        if (value.substring(0, 3) === 'USD') { return "/images/usdt.png" };
+        if (value.substring(0, 3) === 'BTC') { return "images/bitcoin.png" };
+        if (value.substring(0, 3) === 'XMR') { return "images/monero.png" };
+        if (value.substring(0, 3) === 'ETH') { return "images/eth.png" };
+        if (value.substring(0, 3) === 'USD') { return "images/usdt.png" };
         return "";
     }; 
 
